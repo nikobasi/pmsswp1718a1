@@ -1,4 +1,41 @@
-# Το αρχείο Turtle του λεξιλογίου RDFS που περιγράφει
-# τις κλάσεις και τις ιδιότητες του ωρολογίου προγράμματος.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <http://dilab77.ionio.gr/swp/c17vasi/vocab#> .
+
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+vocab:Teacher rdfs:subClassOf foaf:Person .
+vocab:Kathigitis rdf:type rdfs:Class .
+vocab:Mathima rdf:type rdfs:Class .
+vocab:Taxi rdf:type rdfs:Class .
+
+vocab:Dialexi rdf:type rdfs:Class .
+foaf:Person rdf:type rdfs:Class .
 
 
+
+vocab:Καθηγητής rdf:type rdf:Property .
+vocab:Καθηγητής rdfs:domain vocab:Dialexi .
+vocab:Καθηγητής rdfs:range vocab:Kathigitis  .
+
+vocab:Μάθημα rdf:type rdf:Property .
+vocab:Μάθημα rdfs:domain vocab:Dialexi .
+vocab:Μάθημα rdfs:range vocab:Mathima .
+
+vocab:Αίθουσα rdf:type rdf:Property .
+vocab:Αίθουσα rdfs:domain vocab:Dialexi .
+vocab:Αίθουσα rdfs:range vocab:Taxi .
+
+vocab:Έναρξη rdfs:range xsd:time .
+vocab:Έναρξη rdf:type rdf:Property .
+vocab:Έναρξη rdfs:domain vocab:Dialexi .
+
+vocab:Λήξη rdf:type rdf:Property .
+vocab:Λήξη rdfs:domain vocab:Dialexi .
+vocab:Λήξη rdfs:range xsd:time . 
+
+vocab:Ημέρα rdf:type rdf:Property .
+vocab:Ημέρα rdfs:domain vocab:Dialexi .
+vocab:Ημέρα rdfs:range xsd:string .
