@@ -1,4 +1,75 @@
-# Το αρχείο N-Triples με τα δεδομένα του ωρολογίου προγράμματος
-# και τις δηλώσεις rdf:type για κάθε οντότητα.
+_:0 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Ημέρα> "Δευτέρα".
+_:0 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Έναρξη> "15:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:0 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Λήξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:0 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Καθηγητής> <http://dilab77.ionio.gr/swp/yo/resource/ΚΟΜΙΑΝΟΣ>.
+<http://dilab77.ionio.gr/swp/yo/resource/ΚΟΜΙΑΝΟΣ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Kathigitis> . 
+_:0 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Μάθημα> <http://dilab77.ionio.gr/swp/yo/resource/ΨΥΧΑΓ_ΛΟΓΙΣΜ>.
+<http://dilab77.ionio.gr/swp/yo/resource/ΨΥΧΑΓ_ΛΟΓΙΣΜ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Mathima> . 
+_:0 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Αίθουσα> <http://dilab77.ionio.gr/swp/yo/resource/2>.
+<http://dilab77.ionio.gr/swp/yo/resource/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Taxi> . 
+_:0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Dialexi> . 
+_:1 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Ημέρα> "Δευτέρα".
+_:1 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Έναρξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:1 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Λήξη> "21:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:1 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Καθηγητής> <http://dilab77.ionio.gr/swp/yo/resource/ΤΣΩΧΟΥ>.
+<http://dilab77.ionio.gr/swp/yo/resource/ΤΣΩΧΟΥ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Kathigitis> . 
+_:1 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Μάθημα> <http://dilab77.ionio.gr/swp/yo/resource/ΑΣΦ_ΠΛΗΡ_ΣΥΣΤΗΜ>.
+<http://dilab77.ionio.gr/swp/yo/resource/ΑΣΦ_ΠΛΗΡ_ΣΥΣΤΗΜ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Mathima> . 
+_:1 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Αίθουσα> <http://dilab77.ionio.gr/swp/yo/resource/3>.
+<http://dilab77.ionio.gr/swp/yo/resource/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Taxi> . 
+_:1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Dialexi> . 
+_:2 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Ημέρα> "Τρίτη".
+_:2 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Έναρξη> "15:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:2 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Λήξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:2 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Καθηγητής> <http://dilab77.ionio.gr/swp/yo/resource/ΣΤΕΦΑΝΙΔΑΚΗΣ>.
+<http://dilab77.ionio.gr/swp/yo/resource/ΣΤΕΦΑΝΙΔΑΚΗΣ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Kathigitis> . 
+_:2 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Μάθημα> <http://dilab77.ionio.gr/swp/yo/resource/ΣΗΜΑΣΙΟΛΟΓΙΚΟΣ_ΙΣΤΟΣ.>.
+<http://dilab77.ionio.gr/swp/yo/resource/ΣΗΜΑΣΙΟΛΟΓΙΚΟΣ_ΙΣΤΟΣ.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Mathima> . 
+_:2 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Αίθουσα> <http://dilab77.ionio.gr/swp/yo/resource/Αρεταίος>.
+<http://dilab77.ionio.gr/swp/yo/resource/Αρεταίος> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Taxi> . 
+_:2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Dialexi> . 
+_:3 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Ημέρα> "Τρίτη".
+_:3 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Έναρξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:3 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Λήξη> "21:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:3 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Καθηγητής> <http://dilab77.ionio.gr/swp/yo/resource/ΒΛΑΜΟΣ>.
+<http://dilab77.ionio.gr/swp/yo/resource/ΒΛΑΜΟΣ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Kathigitis> . 
+_:3 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Μάθημα> <http://dilab77.ionio.gr/swp/yo/resource/ΒΙΟΠΛΗΡΟΦΟΡΙΚΗ>.
+<http://dilab77.ionio.gr/swp/yo/resource/ΒΙΟΠΛΗΡΟΦΟΡΙΚΗ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Mathima> . 
+_:3 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Αίθουσα> <http://dilab77.ionio.gr/swp/yo/resource/2>.
+<http://dilab77.ionio.gr/swp/yo/resource/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Taxi> . 
+_:3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Dialexi> . 
+_:4 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Ημέρα> "Τετάρτη".
+_:4 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Έναρξη> "15:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:4 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Λήξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:4 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Καθηγητής> <http://dilab77.ionio.gr/swp/yo/resource/ΠΑΤΕΛΗ>.
+<http://dilab77.ionio.gr/swp/yo/resource/ΠΑΤΕΛΗ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Kathigitis> . 
+_:4 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Μάθημα> <http://dilab77.ionio.gr/swp/yo/resource/ΗΛ_ΕΠΙΧΕΙΡΕΙΝ.>.
+<http://dilab77.ionio.gr/swp/yo/resource/ΗΛ_ΕΠΙΧΕΙΡΕΙΝ.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Mathima> . 
+_:4 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Αίθουσα> <http://dilab77.ionio.gr/swp/yo/resource/2>.
+<http://dilab77.ionio.gr/swp/yo/resource/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Taxi> . 
+_:4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Dialexi> . 
+_:5 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Ημέρα> "Τετάρτη".
+_:5 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Έναρξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:5 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Λήξη> "21:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:5 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Καθηγητής> <http://dilab77.ionio.gr/swp/yo/resource/ΑΥΛΩΝΙΤΗΣ>.
+<http://dilab77.ionio.gr/swp/yo/resource/ΑΥΛΩΝΙΤΗΣ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Kathigitis> . 
+_:5 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Μάθημα> <http://dilab77.ionio.gr/swp/yo/resource/ΠΡΟΣΟΜ_ΜΟΝΤΕΛΟΠ>.
+<http://dilab77.ionio.gr/swp/yo/resource/ΠΡΟΣΟΜ_ΜΟΝΤΕΛΟΠ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Mathima> . 
+_:5 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Αίθουσα> <http://dilab77.ionio.gr/swp/yo/resource/2>.
+<http://dilab77.ionio.gr/swp/yo/resource/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Taxi> . 
+_:5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Dialexi> . 
+_:6 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Ημέρα> "Πέμπτη".
+_:6 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Έναρξη> "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:6 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Λήξη> "21:00:00"^^<http://www.w3.org/2001/XMLSchema#time>.
+_:6 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Καθηγητής> <http://dilab77.ionio.gr/swp/yo/resource/ΜΥΛΩΝΑΣ>.
+<http://dilab77.ionio.gr/swp/yo/resource/ΜΥΛΩΝΑΣ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Kathigitis> . 
+_:6 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Μάθημα> <http://dilab77.ionio.gr/swp/yo/resource/ΕΞΟΡ_ΔΕΔΟΜ>.
+<http://dilab77.ionio.gr/swp/yo/resource/ΕΞΟΡ_ΔΕΔΟΜ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Mathima> . 
+_:6 <http://dilab77.ionio.gr/swp/c17vasi/vocab#Αίθουσα> <http://dilab77.ionio.gr/swp/yo/resource/3>.
+<http://dilab77.ionio.gr/swp/yo/resource/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Taxi> . 
+_:6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/c17vasi/vocab#Dialexi> .
+
+
+
 
 
